@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio &amp; Skills | Mr. Iddy Hamis Maulid</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">IDDY<span>.DEV</span></a>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">&#9776;</button>
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html" class="nav-link">Home &amp; About</a></li>
+          <li><a href="portfolio.html" class="nav-link active">Portfolio &amp; Skills</a></li>
+          <li><a href="courses.html" class="nav-link">Courses</a></li>
+          <li><a href="e-books.html" class="nav-link">E-Books</a></li>
+          <li><a href="contact.html" class="nav-link">Certificates &amp; Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- SKILLS OVERVIEW -->
+    <section class="section">
+      <div class="container">
+        <div class="badge">Verified Technical Stack</div>
+        <h1 class="section-heading" style="font-size: 2.8rem;">
+          Expertise, Tools &amp; <span class="text-gradient">Featured Work</span>
+        </h1>
+        <p style="color: var(--text-muted); max-width: 650px;">
+          Bridging language pedagogy with practical artificial intelligence, Python data structures, graphic design, and front-end web engineering.
+        </p>
+
+        <div class="skills-container">
+          <div class="skill-category-card">
+            <h3>&#9881; AI &amp; Python Science</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Python Basics</span>
+              <span class="skill-tag">NumPy Arrays</span>
+              <span class="skill-tag">AI Agent Architecture</span>
+              <span class="skill-tag">NotebookLM Pro</span>
+              <span class="skill-tag">ALX AI Career Essentials</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <h3>&#127912; Graphics &amp; Media</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Adobe Photoshop</span>
+              <span class="skill-tag">Canva Design</span>
+              <span class="skill-tag">AI Video &amp; Image Editing</span>
+              <span class="skill-tag">Marketing Videos</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <h3>&#60;&#47;&#62; Web &amp; Code</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3 (Grid &amp; Flexbox)</span>
+              <span class="skill-tag">Vanilla JavaScript (ES6+)</span>
+              <span class="skill-tag">Responsive Web Design</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <h3>&#128218; Education &amp; Languages</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">English Pedagogy</span>
+              <span class="skill-tag">Kiswahili Fluency</span>
+              <span class="skill-tag">UNESCO / UDSM Certified</span>
+              <span class="skill-tag">Curriculum Planning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS GRID WITH FILTER -->
+    <section class="section" style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-color);">
+      <div class="container">
+        <div style="text-align: center;">
+          <div class="badge">Portfolio Showcase</div>
+          <h2 class="section-heading">Completed Projects</h2>
+        </div>
+
+        <div class="filter-wrapper">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="ai">AI &amp; Python</button>
+          <button class="filter-btn" data-filter="design">Design &amp; Media</button>
+          <button class="filter-btn" data-filter="web">Web &amp; Education</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card" data-category="ai">
+            <div class="project-body">
+              <span class="project-tag">AI Engineering</span>
+              <h3 class="project-title">Autonomous AI Agent Workflows</h3>
+              <p class="project-desc">
+                Designed intelligent task-execution agents using prompt workflows and NotebookLM knowledge synthesis to automate document analysis.
+              </p>
+              <div class="project-stack">
+                <span>AI Agents</span>
+                <span>NotebookLM</span>
+                <span>Prompt Flow</span>
+              </div>
+              <a href="https://wa.me/255740090129?text=Hello%20Mr.%20Iddy,%20I%20am%20interested%20in%20your%20AI%20Agent%20solutions." target="_blank" class="project-cta">Discuss Project &rarr;</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="ai">
+            <div class="project-body">
+              <span class="project-tag">Data Science</span>
+              <h3 class="project-title">Python Analytics &amp; Array Manipulation</h3>
+              <p class="project-desc">
+                Numerical data computation and exploratory analysis using multi-dimensional NumPy arrays and statistical correlations.
+              </p>
+              <div class="project-stack">
+                <span>Python</span>
+                <span>NumPy</span>
+                <span>Data Analysis</span>
+              </div>
+              <a href="https://wa.me/255740090129?text=Hello%20Mr.%20Iddy,%20tell%20me%20more%20about%20your%20Python%20data%20analysis%20work." target="_blank" class="project-cta">Discuss Project &rarr;</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="design">
+            <div class="project-body">
+              <span class="project-tag">Graphic Design</span>
+              <h3 class="project-title">Brand Identity &amp; Digital Visual Assets</h3>
+              <p class="project-desc">
+                High-resolution creative branding, promotional collateral, and social media banners developed with Adobe Photoshop and Canva.
+              </p>
+              <div class="project-stack">
+                <span>Adobe Photoshop</span>
+                <span>Canva</span>
+                <span>Branding</span>
+              </div>
+              <a href="https://wa.me/255740090129?text=Hello%20Mr.%20Iddy,%20I%20need%20graphic%20design%20and%20branding%20services." target="_blank" class="project-cta">Discuss Project &rarr;</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="design ai">
+            <div class="project-body">
+              <span class="project-tag">Media Production</span>
+              <h3 class="project-title">Commercial AI Marketing Video Suite</h3>
+              <p class="project-desc">
+                Commercial promotional videos created using AI image synthesis, video enhancement tools, pacing, and marketing storyboards.
+              </p>
+              <div class="project-stack">
+                <span>AI Video Editing</span>
+                <span>Commercial Media</span>
+              </div>
+              <a href="https://wa.me/255740090129?text=Hello%20Mr.%20Iddy,%20I%20want%20to%20create%20a%20marketing%20video%20with%20you." target="_blank" class="project-cta">Discuss Project &rarr;</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="web">
+            <div class="project-body">
+              <span class="project-tag">Web &amp; Education</span>
+              <h3 class="project-title">Bilingual Educational Web Application</h3>
+              <p class="project-desc">
+                Interactive web grammar exercises and conversational Kiswahili/English modules built with clean HTML5, CSS3, and JavaScript logic.
+              </p>
+              <div class="project-stack">
+                <span>HTML5 / CSS3</span>
+                <span>Vanilla JS</span>
+              </div>
+              <a href="https://wa.me/255740090129?text=Hello%20Mr.%20Iddy,%20I%20would%20like%20to%20know%20more%20about%20your%20language%20modules." target="_blank" class="project-cta">Discuss Project &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a href="https://wa.me/255740090129?text=Hello%20Mr.%20Iddy,%20I%20visited%20your%20website%20and%20would%20like%20to%20connect!" 
+     class="whatsapp-float" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     aria-label="Chat with Mr. Iddy on WhatsApp">
+    <svg viewBox="0 0 32 32"><path d="M16 2a13 13 0 0 0-11.25 19.5L3 29l7.71-1.68A13 13 0 1 0 16 2zm0 23.8a10.75 10.75 0 0 1-5.48-1.5l-.39-.23-4.08.89.91-3.98-.26-.41a10.8 10.8 0 1 1 9.3 5.23zm5.92-8.08c-.32-.16-1.92-.95-2.22-1.06s-.51-.16-.73.16-.84 1.06-1.03 1.28-.38.24-.7.08a8.86 8.86 0 0 1-2.61-1.61 9.8 9.8 0 0 1-1.81-2.25c-.19-.32 0-.49.15-.65s.32-.38.48-.57.21-.32.32-.53.05-.4-.03-.56-.73-1.75-1-2.4c-.26-.63-.53-.55-.73-.56h-.62a1.2 1.2 0 0 0-.87.41 3.65 3.65 0 0 0-1.14 2.71 6.36 6.36 0 0 0 1.33 3.37c1.65 2.21 3.88 3.88 6.52 4.93.63.25 1.12.4 1.5.52a3.6 3.6 0 0 0 1.65.1 2.7 2.7 0 0 0 1.77-1.25 2.2 2.2 0 0 0 .15-1.25c-.06-.11-.23-.19-.55-.35z"/></svg>
+  </a>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="logo">IDDY<span>.DEV</span></div>
+      <p class="footer-copy">&copy; 2026 Mr. Iddy Hamis Maulid. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js.js"></script>
+</body>
+</html>

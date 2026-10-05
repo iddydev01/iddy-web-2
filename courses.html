@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses &amp; Learning Hub | Mr. Iddy Hamis Maulid</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">IDDY<span>.DEV</span></a>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">&#9776;</button>
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html" class="nav-link">Home &amp; About</a></li>
+          <li><a href="portfolio.html" class="nav-link">Portfolio &amp; Skills</a></li>
+          <li><a href="courses.html" class="nav-link active">Courses</a></li>
+          <li><a href="e-books.html" class="nav-link">E-Books</a></li>
+          <li><a href="contact.html" class="nav-link">Certificates &amp; Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" style="text-align: center;">
+      <div class="container">
+        <div class="badge">Practical Mentorship</div>
+        <h1 class="section-heading" style="font-size: 2.8rem; margin-top: 0.5rem;">
+          Level Up Your <span class="text-gradient">Language &amp; Tech Skills</span>
+        </h1>
+        <p style="color: var(--text-muted); max-width: 650px; margin: 0 auto;">
+          Master English or Kiswahili, enter the world of Artificial Intelligence and Python, or design professional graphics with direct 1-on-1 guidance.
+        </p>
+
+        <div class="filter-wrapper">
+          <button class="filter-btn active" data-filter="all">All Offerings</button>
+          <button class="filter-btn" data-filter="free">Free Courses</button>
+          <button class="filter-btn" data-filter="premium">Premium Mentorship</button>
+          <button class="filter-btn" data-filter="language">Languages</button>
+          <button class="filter-btn" data-filter="tech">AI &amp; Tech</button>
+        </div>
+
+        <div class="courses-grid">
+          <!-- COURSE 1 -->
+          <article class="course-card" data-category="premium language">
+            <div class="course-card-body">
+              <span class="course-type">● Premium Mentorship</span>
+              <h3 class="course-title">Bilingual Mastery: English &amp; Kiswahili Immersion</h3>
+              <div class="course-meta">
+                <span>&#128197; 6 Weeks</span>
+                <span>&#127891; Beginner to Advanced</span>
+              </div>
+              <ul class="course-features">
+                <li>Personalized speaking, listening, and accent coaching</li>
+                <li>Grammar foundations &amp; business conversation</li>
+                <li>Live 1-on-1 sessions via Google Meet or WhatsApp</li>
+              </ul>
+              <div class="course-footer">
+                <div class="course-price">Customized</div>
+                <a href="https://wa.me/255740090129?text=Hello%20Mr.%20Iddy,%20I%20would%20like%20to%20enroll%20in%20your%20Bilingual%20Course." target="_blank" class="btn btn-primary">Enroll Now</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- COURSE 2 -->
+          <article class="course-card" data-category="free tech">
+            <div class="course-card-body">
+              <span class="course-type" style="color: var(--accent-green);">● Free Practical Starter</span>
+              <h3 class="course-title">AI Essentials: NotebookLM &amp; Smart Agent Basics</h3>
+              <div class="course-meta">
+                <span>&#128197; Self-Paced</span>
+                <span>&#127891; All Levels</span>
+              </div>
+              <ul class="course-features">
+                <li>Turn PDFs and notes into interactive AI tutors</li>
+                <li>Prompting techniques derived from ALX training</li>
+                <li>Free downloadable templates &amp; starter prompts</li>
+              </ul>
+              <div class="course-footer">
+                <div class="course-price">FREE</div>
+                <a href="https://wa.me/255740090129?text=Hello%20Mr.%20Iddy,%20please%20send%20me%20the%20Free%20AI%20Essentials%20materials." target="_blank" class="btn btn-outline">Access Materials</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- COURSE 3 -->
+          <article class="course-card" data-category="premium tech">
+            <div class="course-card-body">
+              <span class="course-type">● Premium Cohort</span>
+              <h3 class="course-title">Practical Python &amp; Data Science for Beginners</h3>
+              <div class="course-meta">
+                <span>&#128197; 4 Weeks</span>
+                <span>&#127891; Beginner Friendly</span>
+              </div>
+              <ul class="course-features">
+                <li>Core Python programming: syntax, lists &amp; functions</li>
+                <li>Data analysis using NumPy arrays</li>
+                <li>Hands-on code reviews and debugging sessions</li>
+              </ul>
+              <div class="course-footer">
+                <div class="course-price">Affordable</div>
+                <a href="https://wa.me/255740090129?text=Hello%20Mr.%20Iddy,%20I%20am%20interested%20in%20joining%20the%20Python%20Cohort." target="_blank" class="btn btn-primary">Enroll Now</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- FREE CHEATSHEET BANNER -->
+        <div class="resource-banner">
+          <div style="text-align: left;">
+            <div class="badge" style="margin-bottom: 0.8rem;">Free Student Resource</div>
+            <h2 style="font-size: 1.8rem; margin-bottom: 0.6rem;">Python &amp; NumPy Pocket Guide</h2>
+            <p style="color: var(--text-muted); font-size: 0.95rem;">
+              Get instant access to array slicing methods, data structures, and syntax cheatsheet.
+            </p>
+          </div>
+          <div>
+            <a href="https://wa.me/255740090129?text=Hello%20Mr.%20Iddy,%20please%20send%20me%20the%20Python%20Cheat%20Sheet." target="_blank" class="btn btn-outline" style="border-color: var(--accent-green); color: var(--accent-green);">
+              Request Free Guide
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a href="https://wa.me/255740090129?text=Hello%20Mr.%20Iddy,%20I%20visited%20your%20website%20and%20would%20like%20to%20connect!" 
+     class="whatsapp-float" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     aria-label="Chat with Mr. Iddy on WhatsApp">
+    <svg viewBox="0 0 32 32"><path d="M16 2a13 13 0 0 0-11.25 19.5L3 29l7.71-1.68A13 13 0 1 0 16 2zm0 23.8a10.75 10.75 0 0 1-5.48-1.5l-.39-.23-4.08.89.91-3.98-.26-.41a10.8 10.8 0 1 1 9.3 5.23zm5.92-8.08c-.32-.16-1.92-.95-2.22-1.06s-.51-.16-.73.16-.84 1.06-1.03 1.28-.38.24-.7.08a8.86 8.86 0 0 1-2.61-1.61 9.8 9.8 0 0 1-1.81-2.25c-.19-.32 0-.49.15-.65s.32-.38.48-.57.21-.32.32-.53.05-.4-.03-.56-.73-1.75-1-2.4c-.26-.63-.53-.55-.73-.56h-.62a1.2 1.2 0 0 0-.87.41 3.65 3.65 0 0 0-1.14 2.71 6.36 6.36 0 0 0 1.33 3.37c1.65 2.21 3.88 3.88 6.52 4.93.63.25 1.12.4 1.5.52a3.6 3.6 0 0 0 1.65.1 2.7 2.7 0 0 0 1.77-1.25 2.2 2.2 0 0 0 .15-1.25c-.06-.11-.23-.19-.55-.35z"/></svg>
+  </a>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="logo">IDDY<span>.DEV</span></div>
+      <p class="footer-copy">&copy; 2026 Mr. Iddy Hamis Maulid. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js.js"></script>
+</body>
+</html>

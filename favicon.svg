@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#0a0b0e"/>
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="#232733" stroke-width="2"/>
+  <text x="14" y="44" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="30" fill="#f8fafc">I</text>
+  <text x="26" y="44" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="30" fill="#00d4ff">M</text>
+  <circle cx="50" cy="42" r="3.5" fill="#00d4ff"/>
+</svg>
